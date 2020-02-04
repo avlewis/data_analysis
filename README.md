@@ -10,6 +10,6 @@ Folder containing the final project I completed for Quantitative Analysis course
  
  ## R 
  
- Just some various code files I've written using the R programming language. These exapmles use MASS & ISLR datasets and their results could be replicated for anyone who is interested. 
+ Just some various code files I've written using the R programming language. Most exapmles use MASS & ISLR datasets and their results could be replicated for anyone who is interested. 
  
  ## Python
