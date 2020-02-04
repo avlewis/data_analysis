@@ -1,5 +1,5 @@
 # data_analysis
-just a sample repo to give some examples of code I've written analyzing various datasets for school, hobby
+__Hello! :wave:__ This is just a repo I've put together that I hope will serve as a portfolio for some of the work I've done in the field of data analysis. I will attempt to put files in a chronological order. Also, will give a description below about what the purpose of each of the folders is and why I have included them. 
 
 ## Teradata 2017
  
