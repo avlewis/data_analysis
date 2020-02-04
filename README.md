@@ -1,5 +1,5 @@
 # data_analysis
-__Hello! :wave:__ This is just a repo I've put together that I hope will serve as a portfolio for some of the work I've done in the field of data analysis. I will attempt to put files in a chronological order. Also, will give a description below about what the purpose of each of the folders is and why I have included them. 
+__Hello! :wave:__ This is just a repo I've put together that I hope will serve as a portfolio for some of the work I've done in the field of data analysis. Listed below is a description of the files included and what their purpose is. 
 
 ## Teradata 2017
  
