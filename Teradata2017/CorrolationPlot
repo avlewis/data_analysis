@@ -1,1 +1,37 @@
+names(Rise_Against_Hunger_Accounts3)
+require(ggplot2)
+require(ggcorrplot)
+require(ggthemes)
 
+EventL<- as.data.frame(Eventdata)
+names(EventL)<- c("TE", "E16","E15","E14", "E13", "E12", "E11", "E10")
+
+MealL<- as.data.frame(Mealdata)
+names(MealL)<- c("TM", "M16","M15","M14", "M13", "M12", "M11", "M10")
+
+GivingL<- as.data.frame(Givingdata)
+names(GivingL)<- c("TG", "G16","G15","G14", "G13", "G12", "G11", "G10")
+
+
+#Giving Correlation
+GLCOR<- cor(GivingL, use = "complete.obs", method = "pearson"
+           
+    
+             #Make plot for Giving
+            ggcorrplot(GLCOR, method = "circle", hc.order = FALSE, type = "lower",lab = TRUE,
+                       ggtheme = theme_igray,
+                       colors = c("#6D9EC1", "white", "#E46726"))
+            
+            #Events to Giving Correlation
+            EGLCOR<- cor(EventL, y= GivingL, use = "complete.obs", method = "pearson")
+            #make plot for Events to Giving
+            ggcorrplot(EGLCOR, method = "circle", hc.order = FALSE, type = "full",
+                       lab = TRUE,ggtheme = theme_igray,
+                       colors = c("#6D9EC1", "white", "#E46726"))
+            
+            
+            #Events to Meals Correlation
+            EMCOR<- cor(EventL, y=MealL, use = "complete.obs", method = "pearson")
+            #Make a plot for Events to Meals
+            ggcorrplot(EMCOR, method = "circle",  hc.order = FALSE, type = "full", ggtheme = theme_igray,
+                       colors = c("#6D9EC1", "white", "#E46726"),lab = TRUE)
