@@ -20,7 +20,7 @@ Conatins the code, visualizations and report of the final project I completed fo
  
  ## R 
  
- Just some various code files I've written using the R programming language. Most exapmles use MASS & ISLR datasets and their results could be replicated for anyone who is interested. Everything in here for the most part is pretty basic visualizations and modeling stuff. Some of it was written for academic purposes, other stuff was written just to help myself learn.
+ Just some various code files I've written using the R programming language. Most exapmles use MASS & ISLR datasets and their results could be replicated for anyone who is interested. Everything in here for the most part is pretty basic data wrangling, visualization and modeling. Some of it was written for academic purposes, other stuff was written just to help myself learn.
 
  
  ## Python
